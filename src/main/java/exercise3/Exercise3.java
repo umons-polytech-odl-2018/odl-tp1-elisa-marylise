@@ -3,17 +3,17 @@ package exercise3;
 public class Exercise3 {
 	static ConvexPolygon buildConvexPolygon(Point[] vertices) {
 		// TODO build a ConvexPolygon
-		return null;
+		return new ConvexPolygon(vertices);
 	}
 
 	static ConvexPolygon buildRectangle(Point upperLeft, Point lowerRight) {
 		// TODO build a Rectangle
-		return null;
+		return new Rectangle(upperLeft,lowerRight);
 	}
 
 	static ConvexPolygon buildSquare(Point upperLeft, int sideLength) {
 		// TODO build a square
-		return null;
+		return new Square(upperLeft,sideLength);
 	}
 
 	static Ellipsis buildEllipsis(Point center, int xAxisLength, int yAxisLength) {
